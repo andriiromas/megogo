@@ -1,0 +1,78 @@
+# SBT Directories
+target/
+project/target/
+project/project/
+lib_managed/
+src_managed/
+.history/
+.cache/
+.lib/
+.dist/
+
+# IDE Directories (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+.idea_codeStyles/
+.idea_shelf/
+.idea_configurations/
+.idea_workspaces/
+.idea_dictionaries/
+.idea_runConfigurations/
+.idea/libraries/
+.idea/scala_compiler.xml
+.idea/scala_settings.xml
+.idea/modules.xml
+
+# IntelliJ Generated files
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Application specific
+.cache/
+.env
+.env.*
+node_modules/
+
+# Scala/SBT Artifacts
+*.class
+*.log
+.cache/
+.history/
+.mill/
+.scala_dependencies/
+
+# Coverage Reports
+coverage/
+.cache/coursier
+.coursier/cache/
+test-reports/
+logs/
+logs/*
+
+# Common build tools
+*.war
+*.jar
+*.zip
+dist/
